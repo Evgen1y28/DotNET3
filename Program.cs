@@ -11,7 +11,7 @@ namespace HW_Rectangle
     {
         static void Main(string[] args)
         {
-	    Console.Clear();;
+	    Console.Clear();
             Massive3D mas = new Massive3D();
             Console.Write("Введите количество cтолбцов: ");
             int x = int.Parse(Console.ReadLine());
@@ -26,7 +26,7 @@ namespace HW_Rectangle
             Console.WriteLine("Заполните измерения");
             Console.WriteLine();
             mas.Array3d();
-
+            Console.Write();
             mas.Srednee();
            Console.ReadLine();
         }
